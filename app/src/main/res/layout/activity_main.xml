@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<ScrollView
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent">
+ 
     <TextView
         android:id="@+id/textviewresul"
         android:layout_width="wrap_content"
@@ -16,7 +14,7 @@
         android:text=""
         android:textColor="#000"
         android:padding="8dp"/>
-</ScrollView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
