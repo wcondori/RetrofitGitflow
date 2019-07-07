@@ -30,6 +30,7 @@ public class PostAdapter extends ArrayAdapter<Post> {
         tvtitle.setText(post.getTitle());
         tvdesc.setText(post.getText());
         // Return the completed view to render on screen
+
         return convertView;
     }
 }
